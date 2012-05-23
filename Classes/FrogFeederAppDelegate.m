@@ -35,6 +35,7 @@
 	
 }
 
+// this is a test comment
 
 - (void)dealloc {
 	[window release];
