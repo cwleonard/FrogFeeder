@@ -1,0 +1,2 @@
+/Users/casey/Projects/FrogFeeder/Classes/EAGLView.m: In function '-[EAGLView updateScene:]':
+/Users/casey/Projects/FrogFeeder/Classes/EAGLView.m:712: warning: passing argument 3 of 'initWithPosition:::' from distinct Objective-C type

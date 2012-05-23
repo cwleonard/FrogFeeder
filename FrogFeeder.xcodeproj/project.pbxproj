@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FrogFeederAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FrogFeederAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		C918A5B40FEC7987004DBC56 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A5B30FEC7987004DBC56 /* Default.png */; };
+		C918A5B60FEC79DC004DBC56 /* main_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A5B50FEC79DC004DBC56 /* main_screen.png */; };
+		C918A6150FED1CFA004DBC56 /* button_click_start.wav in Resources */ = {isa = PBXBuildFile; fileRef = C918A6130FED1CFA004DBC56 /* button_click_start.wav */; };
+		C918A63A0FED2582004DBC56 /* button_click_end.wav in Resources */ = {isa = PBXBuildFile; fileRef = C918A6390FED2582004DBC56 /* button_click_end.wav */; };
+		C918A6620FED33F4004DBC56 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A6610FED33F4004DBC56 /* alert.png */; };
+		C918A66A0FED62BF004DBC56 /* how-to.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A6690FED62BF004DBC56 /* how-to.png */; };
+		C918A66C0FED62D9004DBC56 /* frog_on_lillypad.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A66B0FED62D9004DBC56 /* frog_on_lillypad.png */; };
+		C918A69D0FED7AC5004DBC56 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A69C0FED7AC5004DBC56 /* Icon.png */; };
+		C918A6AB0FED7C0F004DBC56 /* credits3.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A6A40FED7C0F004DBC56 /* credits3.png */; };
+		C918A6AC0FED7C0F004DBC56 /* credits2.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A6A50FED7C0F004DBC56 /* credits2.png */; };
+		C918A6AD0FED7C0F004DBC56 /* credits7.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A6A60FED7C0F004DBC56 /* credits7.png */; };
+		C918A6AE0FED7C0F004DBC56 /* credits1.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A6A70FED7C0F004DBC56 /* credits1.png */; };
+		C918A6AF0FED7C0F004DBC56 /* credits6.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A6A80FED7C0F004DBC56 /* credits6.png */; };
+		C918A6B00FED7C0F004DBC56 /* credits4.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A6A90FED7C0F004DBC56 /* credits4.png */; };
+		C918A6B10FED7C0F004DBC56 /* credits5.png in Resources */ = {isa = PBXBuildFile; fileRef = C918A6AA0FED7C0F004DBC56 /* credits5.png */; };
+		C98139B40FE434DF001F1090 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = C98139A50FE434DF001F1090 /* Image.m */; };
+		C98139B50FE434DF001F1090 /* SpriteSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C98139A70FE434DF001F1090 /* SpriteSheet.m */; };
+		C98139B60FE434DF001F1090 /* PlatformSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C98139A90FE434DF001F1090 /* PlatformSprite.m */; };
+		C98139B70FE434DF001F1090 /* FrogSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C98139AB0FE434DF001F1090 /* FrogSprite.m */; };
+		C98139B80FE434DF001F1090 /* GameGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = C98139AE0FE434DF001F1090 /* GameGrid.m */; };
+		C98139B90FE434DF001F1090 /* BugSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C98139B00FE434DF001F1090 /* BugSprite.m */; };
+		C98139BA0FE434DF001F1090 /* SplashSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C98139B30FE434DF001F1090 /* SplashSprite.m */; };
+		C98139E10FE43510001F1090 /* sb_numbers.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139BD0FE43510001F1090 /* sb_numbers.png */; };
+		C98139E20FE43510001F1090 /* sb_score.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139BE0FE43510001F1090 /* sb_score.png */; };
+		C98139E30FE43510001F1090 /* ripples.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139BF0FE43510001F1090 /* ripples.png */; };
+		C98139E80FE43510001F1090 /* credits_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139C40FE43510001F1090 /* credits_screen.png */; };
+		C98139EA0FE43510001F1090 /* high_score_numbers_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139C60FE43510001F1090 /* high_score_numbers_2.png */; };
+		C98139EB0FE43510001F1090 /* game_over.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139C70FE43510001F1090 /* game_over.png */; };
+		C98139EC0FE43510001F1090 /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139C80FE43510001F1090 /* continue.png */; };
+		C98139ED0FE43510001F1090 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139C90FE43510001F1090 /* play.png */; };
+		C98139EE0FE43510001F1090 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139CA0FE43510001F1090 /* pause.png */; };
+		C98139EF0FE43510001F1090 /* brown_frog_jumping_26x47.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139CB0FE43510001F1090 /* brown_frog_jumping_26x47.png */; };
+		C98139F00FE43510001F1090 /* brown_frog_eyes_closed_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139CC0FE43510001F1090 /* brown_frog_eyes_closed_40x40.png */; };
+		C98139F10FE43510001F1090 /* brown_frog_eyes_open_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139CD0FE43510001F1090 /* brown_frog_eyes_open_40x40.png */; };
+		C98139F20FE43510001F1090 /* spotted_frog_eyes_open_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139CE0FE43510001F1090 /* spotted_frog_eyes_open_40x40.png */; };
+		C98139F30FE43510001F1090 /* spotted_frog_eyes_closed_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139CF0FE43510001F1090 /* spotted_frog_eyes_closed_40x40.png */; };
+		C98139F40FE43510001F1090 /* spotted_frog_jumping_26x47.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139D00FE43510001F1090 /* spotted_frog_jumping_26x47.png */; };
+		C98139F50FE43510001F1090 /* water3.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139D10FE43510001F1090 /* water3.png */; };
+		C98139F60FE43510001F1090 /* lp_40x40_test.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139D20FE43510001F1090 /* lp_40x40_test.png */; };
+		C98139F90FE43510001F1090 /* tounge.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139D50FE43510001F1090 /* tounge.png */; };
+		C98139FA0FE43510001F1090 /* bonusX4.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139D60FE43510001F1090 /* bonusX4.png */; };
+		C98139FB0FE43510001F1090 /* bonusX3.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139D70FE43510001F1090 /* bonusX3.png */; };
+		C98139FC0FE43510001F1090 /* bonusX2.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139D80FE43510001F1090 /* bonusX2.png */; };
+		C9813A020FE43510001F1090 /* dragonfly.png in Resources */ = {isa = PBXBuildFile; fileRef = C98139DE0FE43510001F1090 /* dragonfly.png */; };
+		C9813A110FE43543001F1090 /* click16a.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9813A090FE43543001F1090 /* click16a.wav */; };
+		C9813A120FE43543001F1090 /* button-16.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9813A0A0FE43543001F1090 /* button-16.wav */; };
+		C9813A1A0FE43585001F1090 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = C9813A190FE43585001F1090 /* Texture2D.m */; };
+		C9813A260FE43709001F1090 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9813A250FE43709001F1090 /* AudioToolbox.framework */; };
+		C9813B730FE43A87001F1090 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9813B720FE43A87001F1090 /* CoreGraphics.framework */; };
+		C9813C0C0FE474CC001F1090 /* pop2b.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9813C0B0FE474CC001F1090 /* pop2b.wav */; };
+		C9813C100FE474EB001F1090 /* splash05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9813C0F0FE474EB001F1090 /* splash05.wav */; };
+		C9813C120FE47503001F1090 /* frog_ribbit02.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9813C110FE47503001F1090 /* frog_ribbit02.wav */; };
+		C9813C140FE4751E001F1090 /* chomp05.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9813C130FE4751E001F1090 /* chomp05.wav */; };
+		C9813C8C0FE5C119001F1090 /* MyOpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = C9813C890FE5C119001F1090 /* MyOpenALSupport.c */; };
+		C9813C8D0FE5C119001F1090 /* oalPlayback.m in Sources */ = {isa = PBXBuildFile; fileRef = C9813C8B0FE5C119001F1090 /* oalPlayback.m */; };
+		C9813CD90FE5C347001F1090 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9813CD80FE5C347001F1090 /* OpenAL.framework */; };
+		C9813D7D0FE5D421001F1090 /* olive_twist_60.aiff in Resources */ = {isa = PBXBuildFile; fileRef = C9813D7C0FE5D421001F1090 /* olive_twist_60.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FrogFeederAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrogFeederAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FrogFeederAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrogFeederAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* FrogFeeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrogFeeder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FrogFeeder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrogFeeder_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FrogFeeder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FrogFeeder-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C918A5B30FEC7987004DBC56 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C918A5B50FEC79DC004DBC56 /* main_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_screen.png; sourceTree = "<group>"; };
+		C918A6130FED1CFA004DBC56 /* button_click_start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = button_click_start.wav; sourceTree = "<group>"; };
+		C918A6390FED2582004DBC56 /* button_click_end.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = button_click_end.wav; sourceTree = "<group>"; };
+		C918A6610FED33F4004DBC56 /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
+		C918A6690FED62BF004DBC56 /* how-to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-to.png"; sourceTree = "<group>"; };
+		C918A66B0FED62D9004DBC56 /* frog_on_lillypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog_on_lillypad.png; sourceTree = "<group>"; };
+		C918A69C0FED7AC5004DBC56 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C918A6A40FED7C0F004DBC56 /* credits3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits3.png; sourceTree = "<group>"; };
+		C918A6A50FED7C0F004DBC56 /* credits2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits2.png; sourceTree = "<group>"; };
+		C918A6A60FED7C0F004DBC56 /* credits7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits7.png; sourceTree = "<group>"; };
+		C918A6A70FED7C0F004DBC56 /* credits1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits1.png; sourceTree = "<group>"; };
+		C918A6A80FED7C0F004DBC56 /* credits6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits6.png; sourceTree = "<group>"; };
+		C918A6A90FED7C0F004DBC56 /* credits4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits4.png; sourceTree = "<group>"; };
+		C918A6AA0FED7C0F004DBC56 /* credits5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits5.png; sourceTree = "<group>"; };
+		C98139A40FE434DF001F1090 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		C98139A50FE434DF001F1090 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		C98139A60FE434DF001F1090 /* SpriteSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteSheet.h; sourceTree = "<group>"; };
+		C98139A70FE434DF001F1090 /* SpriteSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteSheet.m; sourceTree = "<group>"; };
+		C98139A80FE434DF001F1090 /* PlatformSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformSprite.h; sourceTree = "<group>"; };
+		C98139A90FE434DF001F1090 /* PlatformSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlatformSprite.m; sourceTree = "<group>"; };
+		C98139AA0FE434DF001F1090 /* FrogSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrogSprite.h; sourceTree = "<group>"; };
+		C98139AB0FE434DF001F1090 /* FrogSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrogSprite.m; sourceTree = "<group>"; };
+		C98139AC0FE434DF001F1090 /* GridStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridStuff.h; sourceTree = "<group>"; };
+		C98139AD0FE434DF001F1090 /* GameGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameGrid.h; sourceTree = "<group>"; };
+		C98139AE0FE434DF001F1090 /* GameGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameGrid.m; sourceTree = "<group>"; };
+		C98139AF0FE434DF001F1090 /* BugSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugSprite.h; sourceTree = "<group>"; };
+		C98139B00FE434DF001F1090 /* BugSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugSprite.m; sourceTree = "<group>"; };
+		C98139B10FE434DF001F1090 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		C98139B20FE434DF001F1090 /* SplashSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashSprite.h; sourceTree = "<group>"; };
+		C98139B30FE434DF001F1090 /* SplashSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashSprite.m; sourceTree = "<group>"; };
+		C98139BD0FE43510001F1090 /* sb_numbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sb_numbers.png; sourceTree = "<group>"; };
+		C98139BE0FE43510001F1090 /* sb_score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sb_score.png; sourceTree = "<group>"; };
+		C98139BF0FE43510001F1090 /* ripples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ripples.png; sourceTree = "<group>"; };
+		C98139C40FE43510001F1090 /* credits_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits_screen.png; sourceTree = "<group>"; };
+		C98139C60FE43510001F1090 /* high_score_numbers_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = high_score_numbers_2.png; sourceTree = "<group>"; };
+		C98139C70FE43510001F1090 /* game_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_over.png; sourceTree = "<group>"; };
+		C98139C80FE43510001F1090 /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue.png; sourceTree = "<group>"; };
+		C98139C90FE43510001F1090 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		C98139CA0FE43510001F1090 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		C98139CB0FE43510001F1090 /* brown_frog_jumping_26x47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown_frog_jumping_26x47.png; sourceTree = "<group>"; };
+		C98139CC0FE43510001F1090 /* brown_frog_eyes_closed_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown_frog_eyes_closed_40x40.png; sourceTree = "<group>"; };
+		C98139CD0FE43510001F1090 /* brown_frog_eyes_open_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown_frog_eyes_open_40x40.png; sourceTree = "<group>"; };
+		C98139CE0FE43510001F1090 /* spotted_frog_eyes_open_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotted_frog_eyes_open_40x40.png; sourceTree = "<group>"; };
+		C98139CF0FE43510001F1090 /* spotted_frog_eyes_closed_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotted_frog_eyes_closed_40x40.png; sourceTree = "<group>"; };
+		C98139D00FE43510001F1090 /* spotted_frog_jumping_26x47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotted_frog_jumping_26x47.png; sourceTree = "<group>"; };
+		C98139D10FE43510001F1090 /* water3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water3.png; sourceTree = "<group>"; };
+		C98139D20FE43510001F1090 /* lp_40x40_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lp_40x40_test.png; sourceTree = "<group>"; };
+		C98139D50FE43510001F1090 /* tounge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tounge.png; sourceTree = "<group>"; };
+		C98139D60FE43510001F1090 /* bonusX4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonusX4.png; sourceTree = "<group>"; };
+		C98139D70FE43510001F1090 /* bonusX3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonusX3.png; sourceTree = "<group>"; };
+		C98139D80FE43510001F1090 /* bonusX2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonusX2.png; sourceTree = "<group>"; };
+		C98139DE0FE43510001F1090 /* dragonfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonfly.png; sourceTree = "<group>"; };
+		C9813A090FE43543001F1090 /* click16a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click16a.wav; sourceTree = "<group>"; };
+		C9813A0A0FE43543001F1090 /* button-16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "button-16.wav"; sourceTree = "<group>"; };
+		C9813A180FE43585001F1090 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		C9813A190FE43585001F1090 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		C9813A250FE43709001F1090 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		C9813B720FE43A87001F1090 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9813C0B0FE474CC001F1090 /* pop2b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop2b.wav; sourceTree = "<group>"; };
+		C9813C0F0FE474EB001F1090 /* splash05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = splash05.wav; sourceTree = "<group>"; };
+		C9813C110FE47503001F1090 /* frog_ribbit02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = frog_ribbit02.wav; sourceTree = "<group>"; };
+		C9813C130FE4751E001F1090 /* chomp05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chomp05.wav; sourceTree = "<group>"; };
+		C9813C880FE5C119001F1090 /* MyOpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenALSupport.h; sourceTree = "<group>"; };
+		C9813C890FE5C119001F1090 /* MyOpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MyOpenALSupport.c; sourceTree = "<group>"; };
+		C9813C8A0FE5C119001F1090 /* oalPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oalPlayback.h; sourceTree = "<group>"; };
+		C9813C8B0FE5C119001F1090 /* oalPlayback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oalPlayback.m; sourceTree = "<group>"; };
+		C9813CD80FE5C347001F1090 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		C9813D7C0FE5D421001F1090 /* olive_twist_60.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = olive_twist_60.aiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				C9813A260FE43709001F1090 /* AudioToolbox.framework in Frameworks */,
+				C9813B730FE43A87001F1090 /* CoreGraphics.framework in Frameworks */,
+				C9813CD90FE5C347001F1090 /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28FD14FC0DC6FC130079059D /* EAGLView.h */,
+				28FD14FD0DC6FC130079059D /* EAGLView.m */,
+				1D3623240D0F684500981E51 /* FrogFeederAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FrogFeederAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FrogFeeder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C9813A050FE43522001F1090 /* Sounds */,
+				C98139BC0FE434F6001F1090 /* Images */,
+				C98139A30FE434C9001F1090 /* Engine */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FrogFeeder_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C918A69C0FED7AC5004DBC56 /* Icon.png */,
+				C918A5B30FEC7987004DBC56 /* Default.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* FrogFeeder-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9813CD80FE5C347001F1090 /* OpenAL.framework */,
+				C9813B720FE43A87001F1090 /* CoreGraphics.framework */,
+				C9813A250FE43709001F1090 /* AudioToolbox.framework */,
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C98139A30FE434C9001F1090 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				C9813C880FE5C119001F1090 /* MyOpenALSupport.h */,
+				C9813C890FE5C119001F1090 /* MyOpenALSupport.c */,
+				C9813C8A0FE5C119001F1090 /* oalPlayback.h */,
+				C9813C8B0FE5C119001F1090 /* oalPlayback.m */,
+				C9813A180FE43585001F1090 /* Texture2D.h */,
+				C9813A190FE43585001F1090 /* Texture2D.m */,
+				C98139A40FE434DF001F1090 /* Image.h */,
+				C98139A50FE434DF001F1090 /* Image.m */,
+				C98139A60FE434DF001F1090 /* SpriteSheet.h */,
+				C98139A70FE434DF001F1090 /* SpriteSheet.m */,
+				C98139A80FE434DF001F1090 /* PlatformSprite.h */,
+				C98139A90FE434DF001F1090 /* PlatformSprite.m */,
+				C98139AA0FE434DF001F1090 /* FrogSprite.h */,
+				C98139AB0FE434DF001F1090 /* FrogSprite.m */,
+				C98139AC0FE434DF001F1090 /* GridStuff.h */,
+				C98139AD0FE434DF001F1090 /* GameGrid.h */,
+				C98139AE0FE434DF001F1090 /* GameGrid.m */,
+				C98139AF0FE434DF001F1090 /* BugSprite.h */,
+				C98139B00FE434DF001F1090 /* BugSprite.m */,
+				C98139B10FE434DF001F1090 /* Defines.h */,
+				C98139B20FE434DF001F1090 /* SplashSprite.h */,
+				C98139B30FE434DF001F1090 /* SplashSprite.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		C98139BC0FE434F6001F1090 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C918A6A40FED7C0F004DBC56 /* credits3.png */,
+				C918A6A50FED7C0F004DBC56 /* credits2.png */,
+				C918A6A60FED7C0F004DBC56 /* credits7.png */,
+				C918A6A70FED7C0F004DBC56 /* credits1.png */,
+				C918A6A80FED7C0F004DBC56 /* credits6.png */,
+				C918A6A90FED7C0F004DBC56 /* credits4.png */,
+				C918A6AA0FED7C0F004DBC56 /* credits5.png */,
+				C918A6690FED62BF004DBC56 /* how-to.png */,
+				C918A66B0FED62D9004DBC56 /* frog_on_lillypad.png */,
+				C918A6610FED33F4004DBC56 /* alert.png */,
+				C98139BD0FE43510001F1090 /* sb_numbers.png */,
+				C98139BE0FE43510001F1090 /* sb_score.png */,
+				C98139BF0FE43510001F1090 /* ripples.png */,
+				C918A5B50FEC79DC004DBC56 /* main_screen.png */,
+				C98139C40FE43510001F1090 /* credits_screen.png */,
+				C98139C60FE43510001F1090 /* high_score_numbers_2.png */,
+				C98139C70FE43510001F1090 /* game_over.png */,
+				C98139C80FE43510001F1090 /* continue.png */,
+				C98139C90FE43510001F1090 /* play.png */,
+				C98139CA0FE43510001F1090 /* pause.png */,
+				C98139CB0FE43510001F1090 /* brown_frog_jumping_26x47.png */,
+				C98139CC0FE43510001F1090 /* brown_frog_eyes_closed_40x40.png */,
+				C98139CD0FE43510001F1090 /* brown_frog_eyes_open_40x40.png */,
+				C98139CE0FE43510001F1090 /* spotted_frog_eyes_open_40x40.png */,
+				C98139CF0FE43510001F1090 /* spotted_frog_eyes_closed_40x40.png */,
+				C98139D00FE43510001F1090 /* spotted_frog_jumping_26x47.png */,
+				C98139D10FE43510001F1090 /* water3.png */,
+				C98139D20FE43510001F1090 /* lp_40x40_test.png */,
+				C98139D50FE43510001F1090 /* tounge.png */,
+				C98139D60FE43510001F1090 /* bonusX4.png */,
+				C98139D70FE43510001F1090 /* bonusX3.png */,
+				C98139D80FE43510001F1090 /* bonusX2.png */,
+				C98139DE0FE43510001F1090 /* dragonfly.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C9813A050FE43522001F1090 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C918A6390FED2582004DBC56 /* button_click_end.wav */,
+				C918A6130FED1CFA004DBC56 /* button_click_start.wav */,
+				C9813D7C0FE5D421001F1090 /* olive_twist_60.aiff */,
+				C9813C130FE4751E001F1090 /* chomp05.wav */,
+				C9813C110FE47503001F1090 /* frog_ribbit02.wav */,
+				C9813C0F0FE474EB001F1090 /* splash05.wav */,
+				C9813C0B0FE474CC001F1090 /* pop2b.wav */,
+				C9813A090FE43543001F1090 /* click16a.wav */,
+				C9813A0A0FE43543001F1090 /* button-16.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FrogFeeder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FrogFeeder" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrogFeeder;
+			productName = FrogFeeder;
+			productReference = 1D6058910D05DD3D006BFB54 /* FrogFeeder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FrogFeeder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FrogFeeder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				C98139E10FE43510001F1090 /* sb_numbers.png in Resources */,
+				C98139E20FE43510001F1090 /* sb_score.png in Resources */,
+				C98139E30FE43510001F1090 /* ripples.png in Resources */,
+				C98139E80FE43510001F1090 /* credits_screen.png in Resources */,
+				C98139EA0FE43510001F1090 /* high_score_numbers_2.png in Resources */,
+				C98139EB0FE43510001F1090 /* game_over.png in Resources */,
+				C98139EC0FE43510001F1090 /* continue.png in Resources */,
+				C98139ED0FE43510001F1090 /* play.png in Resources */,
+				C98139EE0FE43510001F1090 /* pause.png in Resources */,
+				C98139EF0FE43510001F1090 /* brown_frog_jumping_26x47.png in Resources */,
+				C98139F00FE43510001F1090 /* brown_frog_eyes_closed_40x40.png in Resources */,
+				C98139F10FE43510001F1090 /* brown_frog_eyes_open_40x40.png in Resources */,
+				C98139F20FE43510001F1090 /* spotted_frog_eyes_open_40x40.png in Resources */,
+				C98139F30FE43510001F1090 /* spotted_frog_eyes_closed_40x40.png in Resources */,
+				C98139F40FE43510001F1090 /* spotted_frog_jumping_26x47.png in Resources */,
+				C98139F50FE43510001F1090 /* water3.png in Resources */,
+				C98139F60FE43510001F1090 /* lp_40x40_test.png in Resources */,
+				C98139F90FE43510001F1090 /* tounge.png in Resources */,
+				C98139FA0FE43510001F1090 /* bonusX4.png in Resources */,
+				C98139FB0FE43510001F1090 /* bonusX3.png in Resources */,
+				C98139FC0FE43510001F1090 /* bonusX2.png in Resources */,
+				C9813A020FE43510001F1090 /* dragonfly.png in Resources */,
+				C9813A110FE43543001F1090 /* click16a.wav in Resources */,
+				C9813A120FE43543001F1090 /* button-16.wav in Resources */,
+				C9813C0C0FE474CC001F1090 /* pop2b.wav in Resources */,
+				C9813C100FE474EB001F1090 /* splash05.wav in Resources */,
+				C9813C120FE47503001F1090 /* frog_ribbit02.wav in Resources */,
+				C9813C140FE4751E001F1090 /* chomp05.wav in Resources */,
+				C9813D7D0FE5D421001F1090 /* olive_twist_60.aiff in Resources */,
+				C918A5B40FEC7987004DBC56 /* Default.png in Resources */,
+				C918A5B60FEC79DC004DBC56 /* main_screen.png in Resources */,
+				C918A6150FED1CFA004DBC56 /* button_click_start.wav in Resources */,
+				C918A63A0FED2582004DBC56 /* button_click_end.wav in Resources */,
+				C918A6620FED33F4004DBC56 /* alert.png in Resources */,
+				C918A66A0FED62BF004DBC56 /* how-to.png in Resources */,
+				C918A66C0FED62D9004DBC56 /* frog_on_lillypad.png in Resources */,
+				C918A69D0FED7AC5004DBC56 /* Icon.png in Resources */,
+				C918A6AB0FED7C0F004DBC56 /* credits3.png in Resources */,
+				C918A6AC0FED7C0F004DBC56 /* credits2.png in Resources */,
+				C918A6AD0FED7C0F004DBC56 /* credits7.png in Resources */,
+				C918A6AE0FED7C0F004DBC56 /* credits1.png in Resources */,
+				C918A6AF0FED7C0F004DBC56 /* credits6.png in Resources */,
+				C918A6B00FED7C0F004DBC56 /* credits4.png in Resources */,
+				C918A6B10FED7C0F004DBC56 /* credits5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FrogFeederAppDelegate.m in Sources */,
+				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
+				C98139B40FE434DF001F1090 /* Image.m in Sources */,
+				C98139B50FE434DF001F1090 /* SpriteSheet.m in Sources */,
+				C98139B60FE434DF001F1090 /* PlatformSprite.m in Sources */,
+				C98139B70FE434DF001F1090 /* FrogSprite.m in Sources */,
+				C98139B80FE434DF001F1090 /* GameGrid.m in Sources */,
+				C98139B90FE434DF001F1090 /* BugSprite.m in Sources */,
+				C98139BA0FE434DF001F1090 /* SplashSprite.m in Sources */,
+				C9813A1A0FE43585001F1090 /* Texture2D.m in Sources */,
+				C9813C8C0FE5C119001F1090 /* MyOpenALSupport.c in Sources */,
+				C9813C8D0FE5C119001F1090 /* oalPlayback.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FrogFeeder_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "FrogFeeder-Info.plist";
+				PRODUCT_NAME = FrogFeeder;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FrogFeeder_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "FrogFeeder-Info.plist";
+				PRODUCT_NAME = FrogFeeder;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CASEY LEONARD";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EE0873D6-DD86-463A-91D0-9B73BF9B66C0";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FrogFeeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FrogFeeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
