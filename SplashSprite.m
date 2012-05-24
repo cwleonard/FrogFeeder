@@ -46,6 +46,8 @@
 }
 
 - (void)render {
+    
+    // draw this thing
 	
 	CGPoint p = CGPointMake((position.x * 40) + 20, (position.y * 40) + 20);
 	[sheet renderSpriteAtX:currentFrame y:0 point:p centerOfImage:YES];
