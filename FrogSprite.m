@@ -68,6 +68,7 @@
 		position.y = y;
 		lastPosition.x = x;
 		lastPosition.y = y;
+        // touch stuff
 		touchLoc.x = (x * 40) + 20;
 		touchLoc.y = (y * 40) + 20;
 
